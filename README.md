@@ -55,10 +55,10 @@ In each of the folders above, you will find some or all of the following functio
 * `Nonlinear-CCP/gensample.m`: the code for generating the $d \times m$ matrix of random variables $\xi$.
 
 ## How to get the results?
-* To run the experiments of "VaR-Constrained Portfolio Selection Problem", please `main_portfolio.m`.
-* To run the experiments of "Probabilistic Transportation Problem with Convex Objective", please `main_PTP.m`
-* To run the experiments of "Probabilistic Transportation Problem with Non-Convex Objective", please `main_CCSCP.m`.
-* To run the experiments of "Linear Optimization with Nonlinear Chance Constraint", please `main_NormOpt.m`.
+* To run the experiments of "The VaR-constrained mean-variance portfolio selection problem", please run `main_portfolio.m`.
+* To run the experiments of "The Probabilistic transportation problem with a convex objective", please run `main_PTP.m`
+* To run the experiments of "The Probabilistic transportation problem with a nonconvex objective", please run `main_CCSCP.m`.
+* To run the experiments of "Linear optimization with a joint convex nonlinear chance constraint", please run `main_NormOpt.m`.
 
 ## Support
 

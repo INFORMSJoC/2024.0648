@@ -54,7 +54,11 @@ In each of the folders above, you will find some or all of the following functio
 * `risk_level.m`: the code for calculating the risk level of each method.
 * `Nonlinear-CCP/gensample.m`: the code for generating the $d \times m$ matrix of random variables $\xi$.
 
-
+## How to get the results?
+* To run the experiments of "VaR-Constrained Portfolio Selection Problem", please `main_portfolio.m`.
+* To run the experiments of "Probabilistic Transportation Problem with Convex Objective", please `main_PTP.m`
+* To run the experiments of "Probabilistic Transportation Problem with Non-Convex Objective", please `main_CCSCP.m`.
+* To run the experiments of "Linear Optimization with Nonlinear Chance Constraint", please `main_NormOpt.m`.
 
 ## Support
 

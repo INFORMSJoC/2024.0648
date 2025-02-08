@@ -35,7 +35,25 @@ The goal of this software is to demonstrate the effectiveness of the proximal DC
 ## Code
 In order to run this software, you must install Gurobi 9.5.2 from https://www.gurobi.com/downloads/gurobi-software/. This code can be run in MATLAB R2022b.
 
-This directory contains the folders :
+This directory contains the following folders, each of which corresponds to an experiment in the paper: 
+* `VaR-Porfolio`: The VaR-constrained mean-variance portfolio selection problem.
+* `PTP-Convex`: The Probabilistic transportation problem with a convex objective
+* `PTP-Nonconvex`: The Probabilistic transportation problem with a nonconvex objective
+* `Nonlinear-CCP`: Linear optimization with a joint convex nonlinear chance constraint
+
+In each of the folders above, you will find some or all of the following functions:
+* `main_xxxx.m`: main file to run the codes
+* `MIP.m`: the implementation of the mixed-integer program (MIP) in the paper [Solving chance-constrained stochastic programs via sampling and integer programming](https://pubsonline.informs.org/doi/10.1287/educ.1080.0048).
+* `CVaR.m`: the implementation of the CVaR in the paper [Convex approximations of chance constrained programs](https://epubs.siam.org/doi/10.1137/050622328).
+* `BiCVaR.m`: the implementation of the bisection-based CVaR method in the paper [An augmented Lagrangian decomposition method for chance-constrained optimization problems](https://pubsonline.informs.org/doi/10.1287/ijoc.2020.1001).
+* `DCA.m`: the implementation of Algorithm 1 without proximal term in our paper.
+* `pDCA.m`: the implementation of Algorithm 1 in our paper.
+* `SCA.m`:  the implementation of the successive convex approximation method (SCA) in the paper [Squential convex approximations to joint chance constrained programs: A Monte Carlo approach](https://pubsonline.informs.org/doi/10.1287/opre.1100.0910).
+* `ALDM.m`, `ALDM_update_x.m`, `ALDM_update_y.m`: the implementation of the augmented Lagrangian decomposition method (ALDM) in the paper [An augmented Lagrangian decomposition method for chance-constrained optimization problems](https://pubsonline.informs.org/doi/10.1287/ijoc.2020.1001).
+* `post_processing.m`: the code for calculating the maximum, minimum, and mean values of the indicators.
+* `risk_level.m`: the code for calculating the risk level of each method.
+* `Nonlinear-CCP/gensample.m`: the code for generating the $d \times m$ matrix of random variables $\xi$.
+
 
 
 ## Support

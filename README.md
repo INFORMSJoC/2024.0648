@@ -32,10 +32,15 @@ Below is the BibTex for citing this snapshot of the repository.
 ## Description
 The goal of this software is to demonstrate the effectiveness of the proximal DC method proposed in this paper for the chance constrained programming, as compared to other methods, as well as the effectiveness of the model when applied to empirical study. 
 
-## Data
-The `data` folder contains all the data used in the paper. Below are some detailed descriptions of the contents:
+## Code
+In order to run this software, you must install Gurobi 9.5.2 from https://www.gurobi.com/downloads/gurobi-software/. This code can be run in MATLAB R2022b.
+
+This directory contains the folders :
 
 
+## Support
+
+For support in using this software, submit an [issue](https://github.com/peng8wang/IJOC-CCP/issues/new). This code is being developed on an on-going basis at the author's [Github page](https://github.com/peng8wang/IJOC-CCP).
 
 
 
